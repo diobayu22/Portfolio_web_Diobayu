@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="asset/dio5.png">
+
+
+    <link rel="stylesheet" href="asset/style.css">
+    <title>Portfolio Diobayu</title>
+</head>
+
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark  main-nav">
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> kita ubah agar jika di scroll di akan mengikut,ke,udian tambah main-nav untuk mengubah properti class pada css -->
+        <div class="container">
+            <!--   <div class="container fluid,saya ubah supaya tulisannya tidak terlalu kekiri">-->
+            <a class="navbar-brand" href="#"> <img src="asset/PRANATA__1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto py-2">
+                    <!--   <ul class="navbar-nav me-auto mb-2 mb-lg-0"> saya ubah supaya navnya kekanan -->
+                    <!-- jika ingin navnya ditengahmaka harus makai mx-auto dan py agar ada jarak pading di sumbu y sebesar -3 -->
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item  px-3">
+                        <a class="nav-link" href="#layanan">About</a>
+                    </li>
+                    <li class="nav-item dropdown  px-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="#certificate">Certificate</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#blog">Other</a></li>
+                        </ul>
+                    </li>
+                    <!-- saya kasih px-3 agar ada jarak sumbu x sebesera 3 -->
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section class="main-biru ">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="gambar-1">
+                        <img src="asset/diooo1.png" class="mt-2 w-200 rounded-circle" alt="">
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center align-self-center">
+                    <div class="py-5 pb-1">
+                        <h2> <span id="type"></h2> </span>
+                        <p>Hi, I’m dio a information systems
+                            student. I like finding and solving
+                            code error, math and computer trouble</p>
+                        <button type="button" class="button1 ">Let's more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid about_us  pt-5 pb-5">
+        <div class="container text-center">
+            <h2 class="display-3" id="layanan">About Me</h2>
+            <p>Information System</p>
+            <div class="row pt-4">
+
+                <div class="col-md-4 aboutus">
+                    <h2>About Us</h2>
+                    <div class="about-content pb-3">
+                        The code I had written seemed to not be functioning as expected, and every attempt to fix it
+                        appeared to encounter new obstacles. However, with strong determination and unwavering
+                        perseverance, I kept trying and trying again. After hours of going through lines of code, a
+                        small voice was finally heard that solved the puzzle, and everything fell into place as planned.
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <span class="lingkaran"> <i class="fas fa-code fa-2x"></i>
+                        <p class="interes pt-4">Coding</p>
+                    </span>
+                    <span class="lingkaran"><i class="fas fa-hamburger fa-2x"></i>
+                        <p class="interes pt-4">Burger</p>
+                    </span>
+                    <span class="lingkaran"> <i class="fas fa-book fa-2x"></i>
+                        <p class="interes pt-4">Buku</p>
+                    </span>
+                    <span class="lingkaran"><i class="fas fa-mug-hot fa-2x"></i>
+                        <p class="interes pt-4">Coffe</p>
+                    </span>
+                    <span class="lingkaran"> <i class="fas fa-volleyball-ball fa-2x"></i>
+                        <p class="interes pt-4">Football</p>
+                    </span>
+                    <span class="lingkaran"> <i class="fas fa-shopping-bag fa-2x"></i>
+                        <p class="interes pt-4">Shop</p>
+                    </span>
+                    <span class="lingkaran"><i class="fas fa-camera-retro fa-2x"></i>
+                        <p class="interes pt-4">Photography</p>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 aboutus">
+
+                    <div class="about-content">
+                        The spirit of collaboration burned brightly among our team, but the challenges we faced were not
+                        easy. Various bugs emerged, and constant adjustments were required, but we never gave up. With
+                        effective communication and creative problem-solving, we successfully navigated through those
+                        challenges. Finally, when we launched our product, a sense of pride and satisfaction filled our
+                        hearts, remembering the journey we had been through and all that we had achieved together.
+                    </div>
+                    <button type="button" class="button2 mt-4">Read more>></button>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-7 skills-bar ">
+                    <p>HTML,CSS,BOTSTRAP 5 and JAVASCRIPT</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%;">95%</div>
+                    </div>
+                    <p>Wordpress</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                    <p>Laravel</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;">90%</div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-------About------->
+
+
+
+
+    <section id="portfolio">
+        <div class="blog-item pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="main-header">Portfolio</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <h2 class="main-header text-center">My Project</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="asset/portfolio1.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h2><a href="asset/portfolio1.png">System Information E-Commerce</a></h2>
+                                <div class="short-des">
+                                    <p>
+                                        System information for an e-commerce platform typically includes various
+                                        components and functionalities to ensure smooth operation and efficient
+                                        management of online retail activities.
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <div class="button">
+                                        <a href="asset/portfolio2.jpg" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="asset/portfolio3.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <h2><a href="post.html">Web Application Photograph Portfolio</a></h2>
+                                <div class="short-des">
+                                    <p>
+                                        If you want to get some good contents from the people of your country then
+                                        just
+                                        contribute into the main community of your people and I am sure you will be
+                                        benfitted from that.
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="asset/portfolio2.jpg" alt="">
+                            </div>
+                            <div class="text">
+                                <h2><a href="#">Website Mastering With Wordpress</a></h2>
+                                <div class="short-des">
+                                    <p>
+                                        a highly complex software development project. The spirit of collaboration
+                                        burned brightly among our team, but the challenges we faced were not easy.
+
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper -->
+    <section id="certificate">
+        <div class="container certificat pb-5 pt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="main-header text-center">Certificate</h4>
+                </div>
+                <div class="col-md-12">
+                    <h2 class="main-header text-center pb-5">My Certificate</h2>
+                </div>
+            </div>
+            <div class="swiper portfolio-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/certificate html-css_page-0001.jpg" alt=""
+                                    class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">ponorogo</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/certificate botstrap5_page-0001.jpg" alt=""
+                                    class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">ponorogo</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/certificate laravel_page-0001.jpg" alt=""
+                                    class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">ponorogo</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/certificate botstrap_page-0001.jpg" alt=""
+                                    class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">ponorogo</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/dio1.jpg" alt="" class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">ponorogo</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="blog">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="main-header text-center">Blog</h4>
+                </div>
+                <div class="col-md-12">
+                    <h2 class="main-header text-center pb-5">My Blog</h2>
+                </div>
+            </div>
+            <div class="swiper portfolio-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/banner1.jpg" alt="" class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">Learning Programming</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/banner2.jpg" alt="" class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">Troubleshooting Computer</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/banner3.jpg" alt="" class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">Learning Spesifications Laptop</h6>
+                                <a href="#" class="text-orange">Batam</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/certificate botstrap_page-0001.jpg" alt=""
+                                    class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">Batam</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="asset/dio1.jpg" alt="" class="card-img-top rounded mb-3 ">
+                                <h6 class="fw-semibold">Batam</h6>
+                                <a href="#" class="text-orange">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-----------Footer------->
+    <section class="footer pb-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="asset/PRANATA__1.png" class="footer-logo">
+                    <p>Subscribe Dio Bayu Pranata YouTube Channel to watch more videos on Website Development, UI
+                        Designing and Digital Marketing. Press the bell icon to get immediate notification of new
+                        videos.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Features</h4>
+                    <p>Deals & Offers</p>
+                    <p>Customer Reviews</p>
+                    <p>Cancelatio Policy</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Contact</h4>
+                    <p><i class="fa fa-phone-square"></i> 085694964933/p>
+                    <p><i class="fa fa-envelope"></i> diobayu22@gmail.com.com</p>
+                    <p><i class="fa fa-home"></i> Tiban Gajah Mada Road, Batam City</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us on</h4>
+                    <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                    <p><i class="fa fa-youtube-play"></i> YouTube</p>
+                    <p><i class="fa fa-twitter"></i> Twitter</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Made with <i class="fa fa-heart"></i> by Pranata_Diobayu</p>
+        </div>
+    </section>
+    <!------Footer End------>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var swiper = new Swiper(".portfolio-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+
+        });
+    </script>
+
+    <script>
+        const element = document.getElementById('type');
+
+        new TypeIt(element, {
+            strings: [
+                "Somewhere over the rainbow, way up high",
+                "And the dreams that you dream of, once in a lullaby",
+                "Somewhere over the rainbow, blue birds fly",
+                "And the dreams that you dream of, dreams really do come true...",
+            ],
+            breakLines: false,
+            loop: true,
+            afterStep: (instance) => {
+                instance.getElement().style.color = randomColor();
+            }
+        }).go();
+    </script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#type', {
+            strings: ['HI', ' I am a frond end', 'I am a backend', 'I am a blogger'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backdelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
